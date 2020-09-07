@@ -27,3 +27,23 @@ As seguintes regras devem ser seguidas nesta formatação:
 Realize um fork deste repositório, desenvolva sua solução e encaminhe o seu repositório com o seu código. Arquivos compactados não serão aceitos.
 
 Altere o arquivo README para descrever quais componentes foram utilizados e como sua aplicação deverá ser executada.
+
+
+----
+
+As seguintes tecnologias foram usadas:
+- .NET Core com EF Core, xUnit e Moq para testes;
+- Angular;
+- MS SQL Server.
+
+Foram seguidas as devidas arquiteturas e padrões de desenvolvimento para o projeto.
+
+Os passos a ser seguidos para a execução da aplicação, são:
+- /node_modules deverá ser criado para o projeto em Angular;
+- será necessário adicionar a ConnectionString do db local;
+- realizar o update-database para que a tabela seja criada;
+- alterar o endpoint dos requests que são feitos na API, na aplicação Angular.
+
+Qualquer dúvida, estou à disposição.
+
+
